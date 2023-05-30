@@ -13,11 +13,11 @@ const EmpleadoList = () => {
         },
         {
             id: 2,
-            fullName: "Andrea Quintana",
+            fullName: "Miguel Duran",
             title: "Manager",
             departament: "Marketing",
-            avatar: "https://unavatar.io/andyQuintana"
-        }
+            avatar: "https://unavatar.io/midudev"
+        },
     ]);
 
     // let empleados = [
@@ -37,8 +37,8 @@ const EmpleadoList = () => {
     //     }
     // ];
     return (
-        <ListGroup className="m-5 mx-auto" style={{width:"220px"}}>
-            <EmpleadoRow></EmpleadoRow>
+        <ListGroup className="m-5 mx-auto" style={{width:"max-content"}}>
+            <EmpleadoRow listaEmpleados={empleados}></EmpleadoRow>
         </ListGroup>
     );
 };
