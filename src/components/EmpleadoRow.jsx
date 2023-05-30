@@ -4,7 +4,7 @@ const EmpleadoRow = ({ listaEmpleados }) => {
     return listaEmpleados.map((empleado) => {
         return (
             <ListGroup.Item
-                className="py-0 my-2 bg-light d-flex align-items-center justify-content-between gap-2"
+                className="py-0 my-2 bg-light d-flex align-items-center  gap-3 border-0 shadow"
                 key={empleado.id}
             >
                 <EmpleadoAvatar urlAvatar={empleado.avatar}></EmpleadoAvatar>

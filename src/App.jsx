@@ -5,10 +5,10 @@ import EmpleadoList from './components/EmpleadoList';
 function App() {
 
   return (
-    <>
-      <h1 className='text-center'>Lista de empleador</h1>
+    <section className='section-lista-empleados border m-4'>
+      <h1 className='text-center'>Lista de empleados</h1>
       <EmpleadoList></EmpleadoList>
-    </>
+    </section>
   )
 }
 
